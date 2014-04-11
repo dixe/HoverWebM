@@ -1,0 +1,12 @@
+.white-popup {
+    text-decoration:none;
+    position:relative;
+}
+.white-popup  span {
+    display:none;
+}
+.white-popup  span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "WebM Hover",
+  "description": "This extensions is like hover zoom, but for WebM",
+  "version": "1.0",
+
+  "permissions": [
+  "tabs","*://*.4chan.org/*"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*.4chan.org/*"],
+    "css":["mycss.css"],
+    "js": ["jquery.js","contentscript.js"]
+  }]
+}
