@@ -6,10 +6,10 @@
   "version": "1.0",
 
   "permissions": [
-  "tabs","*://*.4chan.org/*"
+  "tabs","<all_urls>"
   ],
   "content_scripts": [{
-    "matches": ["*://*.4chan.org/*"],
+    "matches": ["<all_urls>"],
     "css":["mycss.css"],
     "js": ["jquery.js","contentscript.js"]
   }]

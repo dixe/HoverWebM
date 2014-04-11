@@ -1,11 +1,11 @@
-.white-popup {
+.hoverWebm {
     text-decoration:none;
     position:relative;
 }
-.white-popup  span {
+.hoverWebm  span {
     display:none;
 }
-.white-popup  span {
+.hoverWebm  span {
     display:block;
     position:fixed;
     overflow:hidden;
